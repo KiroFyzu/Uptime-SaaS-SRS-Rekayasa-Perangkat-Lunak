@@ -1,0 +1,13 @@
+{
+  "name": "auto-commit-github",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node auto-commit.js --schedule 60",
+    "commit": "node auto-commit.js --once",
+    "backdate": "node backdate-commit.js"
+  },
+  "dependencies": {
+    "simple-git": "^3.21.0",
+    "moment": "^2.29.4"
+  }
+}
