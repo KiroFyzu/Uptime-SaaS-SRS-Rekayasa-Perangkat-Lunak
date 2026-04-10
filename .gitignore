@@ -2,9 +2,9 @@
 node_modules/
 
 # Runtime data from auto-commit script
-commit_history.json
-commit_*.txt
-backdate_*.txt
+# commit_history.json
+# commit_*.txt
+# backdate_*.txt
 
 # Logs
 npm-debug.log*
